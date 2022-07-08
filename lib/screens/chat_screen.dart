@@ -212,7 +212,7 @@ class _ChatScreenState extends State<ChatScreen> {
                       topRight: Radius.circular(30)),
                 ),
                 child: ListView.builder(
-                  reverse: true,
+                   reverse: true,
                   itemCount: messages.length,
                   itemBuilder: (context, index) {
                     final Message message = messages[index];
